@@ -1,0 +1,250 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0;padding: 0;}
+
+body{ background: url("../img/Tuo bg.png") repeat-x;}
+/*导航条*/
+.hand{
+	width: 100%;
+	height: 94px;
+	
+	
+}
+.logo a{ padding-left: 20%;}
+
+.hand ul{ 
+	float: right;
+	list-style: none;
+	padding-right: 35%
+	
+}
+
+.hand li{
+	float: left;
+	line-height: 94px;
+	padding-right: 40px;
+	
+}
+
+.hand a:link{
+	text-decoration: none;
+	font: 900 16px "黑体";
+	color: #000;
+}
+
+.hand a:hover{
+	color: #6E6E6E;
+	
+}
+
+.w{
+	width: 1160px;
+	margin: 0 auto;
+	/*border:5px #0000FF solid;*/
+	overflow:hidden;
+}
+
+/*公告部分*/
+.GongGao{
+	width: 725px;
+	height: 625px;
+	margin-top: 10px;
+	padding: 20px;
+	border:2px #0066CC outset;
+	display: inline-block;
+}
+
+.GongGao h1{color: #FF0004;padding-bottom: 20px;}
+
+.GongGao a:link{ color: #970958;display: inline-block; padding-right: 200px; text-decoration: none;}
+.GongGao a:hover{ color: #FF3700;}
+
+.GongGao span,.kefu a{float:right; }
+
+/*登录区域*/
+.biaodan{
+	margin-top: 10px;
+	padding: 20px;
+	display: inline-block;
+	width: 220px;
+	float: right;
+
+}
+
+.biaodan h2{margin-bottom: 15px;}
+
+.kuang{
+	width: 195px;
+	height: 40px;
+	padding-left:10px;
+	background: url("../img/denglu-yonghuming.png") no-repeat;
+	border: none;
+	outline: none;
+}
+.anniu{
+	width: 90px;
+	height: 40px;
+	background: url("../img/anniu.png") no-repeat;
+	border: none;
+	display: inline-block;
+	font: 200 24px/40px "黑体";
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+hr{margin: 10px 0;}
+
+.anniu1{
+	
+	padding:9px;
+}
+
+/*客服*/
+
+.kefu{
+	width: 250px;
+	float: right;
+	padding-top:50px;
+	}
+	
+
+/*留言*/
+#ly{width: 1020px;height: 140px;}
+
+.ly{
+	overflow:auto;
+	width: 880px;
+	height:66px;
+	margin:20px 0;
+	border: #000000 1px solid;
+	padding:10px;
+	font:16px "黑体";
+	border: none;
+	background: url("../img/lykuang.png") no-repeat;
+	resize: none;
+	outline: none;
+	}
+
+.anniu2{
+	width: 90px;
+	height: 40px;
+	background: url("../img/anniu.png") no-repeat;
+	border: none;
+	display:block;
+	font: 200 24px/40px "黑体";
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	margin-top:50px;
+	float:right;
+}
+
+/*页脚*/
+#foot{
+	width: 100%;
+	height: 50px;
+	background-color:#363636;
+	text-align: center;
+	
+}
+#foot span{color: aliceblue; line-height: 50px;font-size: 16px;}
+
+/*轮播图*/
+
+.all {
+      width: 1000px;
+      height: 320px;
+      margin: 20px auto;
+      padding: 5px;
+      border: 1px solid #ccc;
+      position: relative;
+    }
+ 
+    .inner {
+      position: relative;
+      width: 1000px;
+      height: 320px;
+      background-color: pink;
+      overflow: hidden;
+    }
+ 
+    .inner ul {
+      width: 1000%;
+      list-style: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+ 
+    .inner ul li {
+      float: left;
+    }
+ 
+    .focusD {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 1000px;
+      padding: 0 10px;
+      height: 30px;
+      box-sizing: border-box;
+     display: none;
+    }
+ 
+    .inner ol {
+      position: absolute;
+      right: 30px;
+      bottom: 10px;
+    }
+ 
+    .inner ol li {
+      width: 15px;
+      display: inline-block;
+      height: 15px;
+      margin: 0 3px;
+      cursor: pointer;
+      line-height: 15px;
+      text-align: center;
+      background-color: #fff;
+    }
+    /*当前的高亮的小圆点*/
+    .inner ol .current {
+      background-color: orange;
+      color: #fff;
+    }
+ 
+    .focusD span {
+      display: inline-block;
+      width: 25px;
+      font-size: 24px;
+      height: 30px;
+      color: #ccc;
+      line-height: 30px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.3);
+      cursor: pointer;
+    }
+ 
+    #left {
+      float: left;
+    }
+ 
+    #right {
+      float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

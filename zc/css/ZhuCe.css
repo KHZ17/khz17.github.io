@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{ background: url("../img/bg.jpg") no-repeat;}
+#hou{
+	width: 100%;
+	height: 96px;
+	background: url(../img/Tuo.png) repeat-x;
+}
+#hou h1{
+	line-height: 96px;
+	color: #022EFD;
+	padding-left:200px;
+	
+}
+
+#NeiRong{
+	height: 786px;
+	width: 590px;
+	background: #FFFFFF;
+	margin: 20px auto;
+	opacity: 0.85;
+}
+
+#NeiRong h2{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	}
+#NeiRong .a{
+	text-align:right;
+	font-weight: 300;
+}
+
+table{
+	margin: 0 auto;
+}
+
+textarea{
+	width: 300px;
+	height: 100px;
+	overflow: hidden;
+}
+
+.b{
+	width: 50px;
+}
+
+a{
+	width: 160px;
+	height: 40px;
+	background: url("../img/anniu.png") no-repeat;
+	display: block;
+	margin: 50px auto;
+}
+
+#foot{
+	width: 100%;
+	height: 50px;
+	background-color:#363636;
+	text-align: center;
+	
+}
+span{color: aliceblue; line-height: 50px;font-size: 16px;}
+
+
+	
